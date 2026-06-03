@@ -32,16 +32,4 @@ export default [
 ];
 
 
-//  const NewElement = travelData.map((data)=> {
-//    return(
-//      <Entry
-//     key={data.id}
-//     img={data.img}
-//     countryName={data.countryName}
-//     heading={data.heading}
-//     link={data.link}
-//     data={data.date}
-//     p={data.p}
-//     />
-//    )
-//    })
+
