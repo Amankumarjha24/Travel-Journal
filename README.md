@@ -1,9 +1,16 @@
-## 🚀 Features & React Concepts Used
+# React + Vite
 
-This is a clean and dynamic Travel Journal built using modern React practices:
+This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
 
-* **Component-Based Architecture:** Split the UI into reusable components (like `Entry`, `Navbar`, etc.) for better maintainability.
-* **Props-Driven Data:** Passed data dynamically to components using React props.
-* **Separation of Concerns (Data File):** Stored all travel details in a separate, dedicated data file (Array of Objects) to keep the UI logic clean.
-* **Dynamic Rendering with `.map()`:** Instead of hardcoding each travel card, utilized the JavaScript `.map()` method to loop through the data and render multiple `Entry` components dynamically.
-* **Clean Code Practices:** Focused on writing readable, modular, and reusable code.
+Currently, two official plugins are available:
+
+- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Oxc](https://oxc.rs)
+- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/)
+
+## React Compiler
+
+The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+
+## Expanding the ESLint configuration
+
+If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.

@@ -1,0 +1,124 @@
+/* 1. Global Reset (सबसे ऊपर रहेगा) */
+* {
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+}
+
+body {
+  background-color: #fcfcfc;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+/* 2. Header Section */
+.header {
+  width: 100%;
+  height: 55px;
+  padding: 10px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: #f55a5a;
+  color: white;
+}
+
+.logoImg {
+  width: 24px;
+  height: 24px;
+  margin-right: 7px;
+}
+
+.header h1 {
+  font-size: 0.9rem;
+  font-weight: 500;
+}
+
+
+.mainBox {
+  width: 90%;            
+  max-width: 550px; /* थोड़ा सा बढ़ा दिया ताकि टेक्स्ट को अच्छी जगह मिले */   
+  margin: 40px auto; /* ऊपर-नीचे से थोड़ा मार्जिन दे दिया ताकि सुंदर लगे */      
+  background-color: white; 
+  border: 1px solid rgba(128, 128, 128, 0.2);
+  border-radius: 8px;
+  padding: 20px;
+}
+
+
+.card {
+  width: 100%;          
+  display: flex;
+  flex-direction: row; 
+  gap: 20px;           
+  align-items: center;
+}
+
+
+.card img {
+  width: 130px;        
+  height: 170px;       
+  object-fit: cover;  
+  border-radius: 5px;
+  flex-shrink: 0;     
+}
+
+
+.countryName {
+  flex: 1;             
+  display: flex;
+  flex-direction: column; 
+  gap: 5px;            
+}
+
+
+.countryName li {
+  list-style: none;
+  display: flex;
+  align-items: center;
+  font-size: 11px;
+  letter-spacing: 2px;
+  color: #2B283A;
+  text-transform: uppercase;
+}
+
+
+.countryName li img {
+  height: 12px;        
+  width: auto;
+  margin-right: 4px;
+}
+
+
+.countryName li a {
+  color: #918E9B;
+  font-size: 10px;
+  margin-left: 12px;
+  letter-spacing: normal;
+  text-transform: none;
+}
+
+.countryName h2 {
+  font-size: 25px;
+  font-weight: 700;
+  color: #2B283A;
+  margin: 3px 0;
+}
+
+
+.pera {
+  margin-top: 5px;
+}
+
+.date {
+  font-size: 11px;
+  font-weight: 700;
+  color: #2B283A;
+  margin-bottom: 6px;
+}
+
+.pera p {
+  font-size: 11.5px;
+  line-height: 1.5;    
+  color: #2B283A;
+  word-break: break-word; 
+}
