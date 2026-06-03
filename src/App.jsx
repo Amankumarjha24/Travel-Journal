@@ -32,13 +32,6 @@ export default App
 
 
 
-//  <Entry img={imgONe}
-//             countryName={"Japan"}
-//             link={"#"}
-//             date={"12-03-2026 to 13-02-2026"}
-//             heading={"Japnese world"}
-//             p={"If you walk through the small lanes of Kyoto, you’ll see old wooden houses, glowing lanterns, and soft rain falling quietly. It feels as if time itself is moving slowly."}
-//         />
 
 
 
